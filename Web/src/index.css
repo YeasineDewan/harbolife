@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  html, body, #root {
+    @apply w-full min-h-screen m-0 p-0 bg-gray-50 dark:bg-[#121212] text-gray-900 dark:text-white;
+  }
+}
+
+
+@layer base {
+  :root {
+    /* --- Primary: Brand Green --- */
+    --color-primary-50:  #f0fdf4;
+    --color-primary-100: #dcfce7;
+    --color-primary-200: #bbf7d0;
+    --color-primary-400: #4ade80;
+    --color-primary-500: #22c55e;
+    --color-primary-600: #16a34a;
+    --color-primary-700: #15803d;
+    --color-primary-800: #166534;
+    --color-primary-900: #14532d;
+    --color-primary-950: #052e16;
+
+    /* --- Semantic / State Colors --- */
+    --color-danger-50:  #fef2f2;
+    --color-danger-100: #fee2e2;
+    --color-danger-200: #fecaca;
+    --color-danger-400: #f87171;
+    --color-danger-500: #ef4444;
+    --color-danger-600: #dc2626;
+    --color-danger-700: #b91c1c;
+    --color-danger-800: #991b1b;
+    --color-danger-900: rgba(220,38,38,0.2);
+
+    --color-warning-50:  #fffbeb;
+    --color-warning-200: #fde68a;
+    --color-warning-400: #facc15;
+    --color-warning-600: #ca8a04;
+    --color-warning-900: rgba(234,179,8,0.2);
+
+    --color-info-600: #2563eb;
+    --color-info-700: #1d4ed8;
+
+    /* --- Neutral Scale (gray-*) — Light Mode --- */
+    --color-surface-page:   #f9fafb;
+    --color-surface-card:   #ffffff;
+    --color-surface-input:  #f9fafb;
+    --color-surface-muted:  #f3f4f6;
+
+    --color-border-base:    #e5e7eb;
+    --color-border-input:   #d1d5db;
+    --color-border-subtle:  #f3f4f6;
+
+    --color-text-primary:   #111827;
+    --color-text-secondary: #6b7280;
+    --color-text-muted:     #9ca3af;
+    --color-text-label:     #374151;
+    --color-text-body:      #374151;
+
+    --color-hero-from:  #0a3c2f;
+    --color-hero-to:    #2c6e49;
+
+    --color-panel-dark: #1e1e1e;
+  }
+
+  .dark {
+    --color-surface-page:   #121212;
+    --color-surface-card:   #1e1e1e;
+    --color-surface-input:  #2c2c2c;
+    --color-surface-muted:  #374151;
+
+    --color-border-base:    #374151;
+    --color-border-input:   #4b5563;
+    --color-border-subtle:  #1f2937;
+
+    --color-text-primary:   #ffffff;
+    --color-text-secondary: #9ca3af;
+    --color-text-muted:     #9ca3af;
+    --color-text-label:     #d1d5db;
+    --color-text-body:      #d1d5db;
+
+    --color-primary-700:    #166534;
+    --color-primary-800:    #14532d;
+    --color-primary-900:    #14532d;
+
+    --color-panel-dark:     #252525;
+  }
+}
