@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aelaraby6/PharmaXpress.git"
+    "url": "git+https://github.com/YeasineDewan/harbolife.git"
   },
   "keywords": [
     "pharmacy",
@@ -23,9 +23,9 @@
   "license": "ISC",
   "type": "module",
   "bugs": {
-    "url": "https://github.com/aelaraby6/PharmaXpress/issues"
+    "url": "https://github.com/YeasineDewan/harbolife/issues"
   },
-  "homepage": "https://github.com/aelaraby6/PharmaXpress#readme",
+  "homepage": "https://github.com/YeasineDewan/harbolife#readme",
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "bcrypt": "^6.0.0",

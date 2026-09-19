@@ -1,9 +1,5 @@
 {
   "name": "Rochetta",
   "private": true,
-  "workspaces": [
-    "Server",
-    "Web",
-    "Mobile"
-  ]
+  "description": "Full-stack pharmacy e-commerce platform - monorepo with Web, Server, and Mobile apps"
 }
