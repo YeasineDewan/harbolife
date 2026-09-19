@@ -1,1 +1,9 @@
-{}
+{
+  "name": "Rochetta",
+  "private": true,
+  "workspaces": [
+    "Server",
+    "Web",
+    "Mobile"
+  ]
+}
